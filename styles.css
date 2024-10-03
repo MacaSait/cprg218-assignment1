@@ -50,8 +50,23 @@ footer {
 
 
 
-@media screen and (max-width: 600px){
-    #container{}
+@media screen and (min-width: 768px){
+    #container{
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .header-container{
+        display: flex;
+    }
+
+}
+
+@media screen and (min-width: 1000px){
+    #container{
+        display:flex;
+        justify-content: space-around;
+    }
 
 
 }
