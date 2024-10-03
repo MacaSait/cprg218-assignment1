@@ -1,27 +1,44 @@
 * {
     box-sizing: border-box;
 }
+
 #container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body{
+    font-family: sans-serif;
     
 }
+
 header {
     background-color: #120323;
     color: #97bf04;
     text-align: center;
     padding: 2rem;
-}
-
-main{
 
 }
 
 img{
     background-color: #d9043d;
     padding: 1rem;
+    align-items: center;
+    min-height: 100vh;
+   
 }
+
+figcaption {
+    
+}
+
 
 aside {
     background-color: #97bf04;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
 }
 
 footer {
@@ -29,4 +46,12 @@ footer {
     color: white;
     text-align: center;
     padding: 2rem ;
+}
+
+
+
+@media screen and (max-width: 600px){
+    #container{}
+
+
 }
