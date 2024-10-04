@@ -21,13 +21,18 @@ header {
 
 }
 
-img{
+
+
+
+#puffin {
     background-color: #d9043d;
     padding: 1rem;
+    justify-content: center;
     align-items: center;
     min-height: 100vh;
-   
 }
+
+
 
 figcaption {
     
