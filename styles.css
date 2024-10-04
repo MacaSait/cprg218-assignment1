@@ -10,7 +10,6 @@
 
 body{
     font-family: sans-serif;
-    
 }
 
 header {
@@ -18,9 +17,7 @@ header {
     color: #97bf04;
     text-align: center;
     padding: 2rem;
-
 }
-
 
 
 
@@ -43,7 +40,6 @@ aside {
     background-color: #97bf04;
     padding: 1rem;
     margin-bottom: 1rem;
-
 }
 
 footer {
@@ -60,9 +56,15 @@ footer {
         display: flex;
         align-items: flex-start;
     }
+    aside{
+        align-self: flex-end;
+    }
 
     .header-container{
         display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: row;
     }
 
 }
